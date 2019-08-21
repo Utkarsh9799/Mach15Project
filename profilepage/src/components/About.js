@@ -1,0 +1,28 @@
+import React from 'react';
+
+function About() {
+    return(
+        <div className="About">
+            <div className="about" style={{width: '65%',float: 'left',margin: '1%',padding: '1%'}}>
+                <h1>ABOUT</h1> 
+                <p>The Local Train is an Indian Hindi rock band from Delhi. Since its    
+                inception in Chandigarh in 2008, the band has gone on to achieve massive 
+                commerical success and has become a staple in cultural and music festivals 
+                across the country. The Local Train is widely known for its emphatic lyrics - 
+                which are a blend of Urdu and Hindi - and their signature lies in a raw, 
+                honest sound which resonates with the youth. At a nationwide talent hunt held in 
+                2015, Sennheiser (a German music equipment company) ranked The Local Train as the 
+                No. 1 emerging band. Following this win, the band released their acclaimed debut 
+                album "Aalas Ka Pedh" in September 2015 which consisted of 9 tracks, with Flying
+                Carpet Productions. The album went on to become one of the highest selling independent
+                albums of the year and also featured on the list of “Most Streamed Albums” on Apple
+                Music. The album was engineered by noted recording engineer Ashish Manchanda.</p>
+            </div>
+            <div className="band" style={{width: '25%',float: 'right',margin: '1%',padding: '1%'}}>
+                <h1>Band Members</h1>
+            </div>
+        </div>
+    );
+}
+
+export default About;
