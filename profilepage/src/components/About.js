@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
     return(
         <div className="About">
-            <div className="about" style={{width: '65%',float: 'left',margin: '1%',padding: '1%'}}>
+            <div className="about" style={{width: '65%',float: 'left',padding: '1%',borderRight: '1px solid #eee'}}>
                 <h1>ABOUT</h1> 
                 <p>The Local Train is an Indian Hindi rock band from Delhi. Since its    
                 inception in Chandigarh in 2008, the band has gone on to achieve massive 
@@ -17,9 +17,6 @@ function About() {
                 Carpet Productions. The album went on to become one of the highest selling independent
                 albums of the year and also featured on the list of “Most Streamed Albums” on Apple
                 Music. The album was engineered by noted recording engineer Ashish Manchanda.</p>
-            </div>
-            <div className="band" style={{width: '25%',float: 'right',margin: '1%',padding: '1%'}}>
-                <h1>Band Members</h1>
             </div>
         </div>
     );
