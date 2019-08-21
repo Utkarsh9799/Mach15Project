@@ -1,10 +1,15 @@
 import React from 'react';
 
+const styleAbout = {
+    float: 'left',
+    padding: '1%',
+}
+
 function About() {
     return(
         <div className="About">
-            <div className="about" style={{width: '65%',float: 'left',padding: '1%',borderRight: '1px solid #eee'}}>
-                <h1>ABOUT</h1> 
+            <div className="about col-md-9" style={styleAbout}>
+                <h1 style={{fontSize: '22px'}}><b>ABOUT</b></h1> 
                 <p>The Local Train is an Indian Hindi rock band from Delhi. Since its    
                 inception in Chandigarh in 2008, the band has gone on to achieve massive 
                 commerical success and has become a staple in cultural and music festivals 
