@@ -2,6 +2,7 @@ import React from 'react';
 import About from './components/About';
 import Band from './components/Band';
 import Available from './components/Available';
+import Connect from './components/Connect';
 
 const borderStyle = {
   margin: '1%',
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Band />
         <Available />
+        <Connect />
       </div>
     </div>
   );

@@ -3,7 +3,9 @@ import React from 'react';
 const styleAbout = {
     float: 'left',
     padding: '1%',
-    paddingRight: '0'
+    paddingBottom: '0',
+    paddingRight: '0',
+    borderBottom: '1px solid #eee',
 }
 
 const styleSong = {
@@ -108,7 +110,7 @@ function About() {
                     <hr style={{marginTop: '1%'}} />
                     <h2 style={{fontSize: '24px', marginBottom: '5%'}}><b>All Music</b>      <img 
                     src={require('../assets/more.png')} alt="" 
-                    style={{width: '22px', height: '22px'}} /></h2>
+                    style={{width: '16px', height: '16px'}} /></h2>
                 </div>
                 At a nationwide talent hunt held in 
                 2015, Sennheiser (a German music equipment company) ranked The Local Train as the 
