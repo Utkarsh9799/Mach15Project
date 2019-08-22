@@ -4,6 +4,7 @@ import Band from './components/Band';
 import Available from './components/Available';
 import Navigationbar from './components/Navigationbar';
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import Connect from './components/Connect';
 
 const borderStyle = {
   margin: '1%',
@@ -20,6 +21,7 @@ function App() {
         <About />
         <Band />
         <Available />
+        <Connect />
       </div>
       </Router>
       </React.Fragment>
