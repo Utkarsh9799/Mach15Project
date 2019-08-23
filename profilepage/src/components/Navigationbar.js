@@ -4,35 +4,30 @@ import { Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
 import style from "./Navb.css"
 
-const navstyle={
-    width:'35%',
-    marginLeft: '35%'
-}
 const Styles = styled.div`
   a,
   .navbar-brand,
   .navbar-nav .nav-link {
     color: #000;
-    padding:7px;
     font-weight:600;
     font-size:14px;
-    margin-top:10px;
+    margin-top:20px;
     &:hover {
         text-decoration:none;  
       color: #696969;
     }
   }
-`;
+`
 function Navigationbar() {
     return(
-        <div className="Navbar">
+        <div className="Navbar row">
 
-            <div className="imgb" style={{float:"left",margin:'1%'}}>
-            <img src={require('../assets/spotify.png')} alt="logo"
-            style={{height: '35px', width: '35px'}} />
+            <div className="imgb col-md-3 col-xs-12">
+            <img src={require('../assets/icons/png.png')} alt="logo"
+            style={{height: '70px', width: '70px'}} />
             </div>
-            <Styles>
-            <Navbar style={navstyle}>
+            <Styles className="col-md-3 col-xs-12">
+            <Navbar>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
@@ -59,22 +54,25 @@ function Navigationbar() {
                         <Link to="/shop">SHOP</Link>
                         </Nav.Link>
                     </Nav.Item>
-                    <div class="form-group has-search" style={{marginLeft:'0.8rem'}}>
-                    <span class="fa fa-search form-control-feedback"></span>
-                    <input type="search" class="form-control" placeholder="SEARCH" size="10" />
-                    </div>
                 </Nav>
                 </Navbar.Collapse>
                 </Navbar>
             </Styles>
-            <div>
-                <h3>Hello Band</h3>
-                <div className="imgb" style={{float:"right",margin:'1%'}}>
-                <img src={require('../assets/spotify.png')} alt="logo"
-                style={{height: '35px', width: '35px'}} />
+            <div className="form-group has-search col-md-3 col-xs-6">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="search" class="form-control" placeholder="SEARCH" size="10" />
+            </div>
+            <div className="col-md-3 col-xs-6" style={{marginTop:"0.8%"}}>
+                <div className="hello">
+                    <h3 style={{fontSize:"20px",fontWeight:"bold"}}>Hello Band</h3>
+                </div>
+                <div className="imgg">
+                <img src={require('../assets/icons/local train.jpeg')} alt="logo"
+                style={{height: '50px', width: '50px',borderRadius:"50%"}} />              
+                </div>
+                <div className="clearfix"></div>
             </div>
             </div>
-        </div>
     );
 }
 

@@ -2,11 +2,14 @@
     padding-left: 2.2rem;
     border:10px solid "#000000";
     border-radius: 0%;
-    margin-top: 10px;
+    margin-top: 28px;
     font-size: 11px;
     font-weight: bold;
+    width: 98px;
 }
-
+.col{
+    width: 100%;
+}
 .has-search .form-control-feedback {
     position: absolute;
     z-index: 2;
@@ -17,6 +20,21 @@
     text-align: center;
     pointer-events: none;
     color:#696969;
-    margin-top: 7px;
+    margin-top: 23px;
     padding-left: 1rem;
+}
+.row{
+     margin: 1%;
+}
+.hello{
+    margin-left: 2%;
+    float: right;
+    padding-top: 6%;
+}
+.imgg{
+    float: right;
+    padding-top: 2%;
+}
+.clearfix{
+    clear: both;
 }
