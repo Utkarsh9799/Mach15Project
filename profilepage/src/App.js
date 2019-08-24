@@ -3,6 +3,7 @@ import About from './components/About';
 import Band from './components/Band';
 import Available from './components/Available';
 import Connect from './components/Connect';
+import Videos from './components/Videos';
 
 const borderStyle = {
   margin: '1%',
@@ -17,6 +18,7 @@ function App() {
         <Band />
         <Available />
         <Connect />
+        <Videos />
       </div>
     </div>
   );
