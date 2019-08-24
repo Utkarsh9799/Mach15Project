@@ -7,6 +7,7 @@ import Videos from './components/Videos';
 import Gigs from './components/Gigs';
 import Comments from './components/Comments';
 import FamousBands from './components/FamousBands';
+import Collections from './components/Collections';
 
 const borderStyle = {
   margin: '1%',
@@ -25,6 +26,7 @@ function App() {
         <FamousBands />
         <Gigs />
         <Comments />
+        <Collections />
       </div>
     </div>
   );
