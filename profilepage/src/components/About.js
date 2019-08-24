@@ -23,7 +23,7 @@ function About() {
                 commerical success and has become a staple in cultural and music festivals 
                 across the country. The Local Train is widely known for its emphatic lyrics - 
                 which are a blend of Urdu and Hindi - and their signature lies in a raw, 
-                honest sound which resonates with the youth.
+                honest sound which resonates with the youth. 
                 <div className="songs col-md-5" style={styleSong}>
                     <h4 style={{fontSize: '22px', marginBottom: '5%'}}><b>Latest Songs</b></h4>
                     <div className="row">
@@ -118,7 +118,14 @@ function About() {
                 album "Aalas Ka Pedh" in September 2015 which consisted of 9 tracks, with Flying
                 Carpet Productions. The album went on to become one of the highest selling independent
                 albums of the year and also featured on the list of “Most Streamed Albums” on Apple
-                Music. The album was engineered by noted recording engineer Ashish Manchanda.</p>
+                Music. The album was engineered by noted recording engineer Ashish Manchanda.
+                Soon after its release, Chriss Hesse, drummer for the international rock act 
+                ‘Hoobastank’ and owner of the Lighthouse Recording Studio in California, mixed and 
+                mastered 'Aalas ka Pedh'. Since then, he has been working with the band on all their 
+                releases.
+                They were invited to perform at major festivals, venues, and clubs across the 
+                country owing to which they now enjoy a strong and faithful fanbase for their live 
+                act.</p>
             </div>
         </div>
     );

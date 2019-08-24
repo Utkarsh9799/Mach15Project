@@ -11,8 +11,8 @@ function Videos() {
     return(
         <div className="Videos">
             <div className="video col-md-9" style={videoStyle}>
-                <h4 style={{fontSize: '26px', marginBottom: '5%'}}><b>VIDEOS</b></h4>
-                <div className="row" style={{marginBottom: '5%'}}>
+                <h4 style={{fontSize: '26px', marginBottom: '3%'}}><b>VIDEOS</b></h4>
+                <div className="row" style={{marginBottom: '4%',textAlign: 'center'}}>
                     <div className="col-md-3">
                         <img src={require('../assets/pic1.jpg')} alt=""
                         style={{height: '125px', width: '190px', borderRadius: '5px'}} />
