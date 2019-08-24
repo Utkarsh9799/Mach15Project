@@ -46,7 +46,7 @@ function Gigs() {
                         <i className="fa fa-ellipsis-v" style={{fontSize: '30px', color: '#363433'}}></i>
                     </div>
                 </div>
-                <div className="row" style={{padding: '5%'}}>
+                <div className="row" style={{padding: '5%',marginBottom: '3%'}}>
                     <div className="col-md-3" style={rect}>
                         <p>24th August 2019</p>
                     </div>
