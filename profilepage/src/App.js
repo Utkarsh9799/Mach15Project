@@ -6,6 +6,7 @@ import Connect from './components/Connect';
 import Videos from './components/Videos';
 import Gigs from './components/Gigs';
 import Comments from './components/Comments';
+import FamousBands from './components/FamousBands';
 
 const borderStyle = {
   margin: '1%',
@@ -21,6 +22,7 @@ function App() {
         <Available />
         <Connect />
         <Videos />
+        <FamousBands />
         <Gigs />
         <Comments />
       </div>
