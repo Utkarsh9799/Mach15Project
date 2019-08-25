@@ -59,8 +59,8 @@ function Navigationbar() {
                 </Navbar>
             </Styles>
             <div className="form-group has-search col-md-3 col-xs-6">
-                        <span class="fa fa-search form-control-feedback"></span>
-                        <input type="search" class="form-control" placeholder="SEARCH" size="10" />
+                        <span className="fa fa-search form-control-feedback"></span>
+                        <input type="search" className="form-control" placeholder="SEARCH" size="10" />
             </div>
             <div className="col-md-3 col-xs-6" style={{marginTop:"0.8%"}}>
                 <div className="hello">

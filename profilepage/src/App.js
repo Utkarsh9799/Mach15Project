@@ -5,6 +5,10 @@ import Available from './components/Available';
 import Navigationbar from './components/Navigationbar';
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Connect from './components/Connect';
+import Slider from './components/Slider';
+import slider from './components/Slider';
+import Info from './components/Info';
+import Like from './components/Like';
 
 const borderStyle = {
   margin: '1%',
@@ -18,6 +22,9 @@ function App() {
       <Router>
       <Navigationbar />
       <div className="border" style={borderStyle}>
+        <Slider />
+        <Info />
+        <Like />
         <About />
         <Band />
         <Available />

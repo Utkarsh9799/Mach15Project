@@ -1,0 +1,75 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/Slider.js":
+/*!**********************************!*\
+  !*** ./src/components/Slider.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_awesome_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-awesome-slider */ "./node_modules/react-awesome-slider/dist/index.js");
+/* harmony import */ var react_awesome_slider__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_awesome_slider__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_awesome_slider_dist_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-awesome-slider/dist/styles.css */ "./node_modules/react-awesome-slider/dist/styles.css");
+/* harmony import */ var react_awesome_slider_dist_styles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_awesome_slider_dist_styles_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Projects\\React_project\\Mach15Project\\profilepage\\src\\components\\Slider.js";
+
+
+
+const aniStyle = {
+  borderRadius: '2%',
+  width: '80%',
+  height: '100%',
+  marginLeft: '10%',
+  marginRight: '10%'
+};
+
+const slider = ({
+  props
+}) => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_awesome_slider__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  organicArrows: false,
+  infinte: true,
+  style: {
+    height: '250px',
+    width: '100%'
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  style: aniStyle,
+  "data-src": __webpack_require__(/*! ../assets/icons/s1.jpg */ "./src/assets/icons/s1.jpg"),
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  style: aniStyle,
+  "data-src": __webpack_require__(/*! ../assets/icons/s2.jpg */ "./src/assets/icons/s2.jpg"),
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  style: aniStyle,
+  "data-src": __webpack_require__(/*! ../assets/icons/s3.jpg */ "./src/assets/icons/s3.jpg"),
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (slider);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.b32f19f59d7d54786b99.hot-update.js.map
