@@ -9,6 +9,13 @@ import Slider from './components/Slider';
 import slider from './components/Slider';
 import Info from './components/Info';
 import Like from './components/Like';
+import Videos from './components/Videos';
+import Gigs from './components/Gigs';
+import Comments from './components/Comments';
+import FamousBands from './components/FamousBands';
+import Collections from './components/Collections';
+import Footer from './components/Footers';
+import Merchendise from './components/Merchendise';
 
 const borderStyle = {
   margin: '1%',
@@ -21,14 +28,19 @@ function App() {
       <React.Fragment>
       <Router>
       <Navigationbar />
+      <Info />
       <div className="border" style={borderStyle}>
-        <Slider />
-        <Info />
-        <Like />
         <About />
         <Band />
         <Available />
         <Connect />
+        <Videos />
+        <FamousBands />
+        <Gigs />
+        <Comments />
+        <Collections />
+        <Merchendise />
+        <Footer />
       </div>
       </Router>
       </React.Fragment>
