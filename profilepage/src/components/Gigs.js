@@ -3,7 +3,6 @@ import React from 'react';
 const gigsStyle = {
     float: 'left',
     padding: '2%',
-    borderBottom: '1px solid #eee',
     borderRight: '1px solid #eee'
 }
 

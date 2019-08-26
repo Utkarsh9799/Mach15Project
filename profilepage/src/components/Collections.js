@@ -2,7 +2,6 @@ import React from 'react';
 
 const collectionsStyle = {
     float: 'right',
-    borderBottom: '1px solid #eee',
     padding: '2%'
 }
 

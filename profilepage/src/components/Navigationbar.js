@@ -11,7 +11,7 @@ const Styles = styled.div`
     color: #000;
     font-weight:600;
     font-size:14px;
-    margin-top:20px;
+    margin-top:18px;
     &:hover {
         text-decoration:none;  
       color: #696969;
@@ -58,9 +58,12 @@ function Navigationbar() {
                 </Navbar.Collapse>
                 </Navbar>
             </Styles>
-            <div className="form-group has-search col-md-3 col-xs-6">
-                        <span className="fa fa-search form-control-feedback"></span>
-                        <input type="search" className="form-control" placeholder="SEARCH" size="10" />
+            <div className="col-md-3 col-xs-6" style={{marginTop:'1.5%'}}>
+            <form className="form-inline md-form form-sm mt-0">
+                <i className="fas fa-search" aria-hidden="true"></i>
+                <input className="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+                aria-label="Search" />
+            </form>
             </div>
             <div className="col-md-3 col-xs-6" style={{marginTop:"0.8%"}}>
                 <div className="hello">

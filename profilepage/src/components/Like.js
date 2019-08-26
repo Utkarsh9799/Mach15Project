@@ -1,26 +1,30 @@
 import React from 'react'
 
 const likeStyle={
+    display:'flex',
+    flexDirection: 'column',
+    justifyContent:'flex-end',
     color:'#696969',
-    textAlign:'right',
-    borderRight: '1px solid #696969'
-    
+    borderRight:'1px solid #808080',
+    paddingTop:'0%',
+    paddingBottom:'0%'
 }
 const followStyle={
-    color:'#696969',
-    textAlign: 'left'
+    display:'flex',
+    flexDirection: 'column',
+    justifyContent:'flex-start',
+    color:'#696969'
 }
-export default function like() {            
+export default function like(){            
     return (
-
-        <div className='row'>
-            <div className='col-md-6' style={likeStyle}>
-                <h1 style={{fontSize:'1.8em'}}>140k</h1>
-                <h4 style={{fontSize:'0.8em'}}>LIKES</h4>
+        <div className='row' style={{marginTop:'-8%'}}>
+            <div className='col-md-6 col-xs-6' style={likeStyle}>
+                <p style={{fontSize:'1.5em'}}>140k</p>
+                <p style={{fontSize:'0.8em'}}>LIKES</p>
             </div>
-            <div className='col-md-6' style={followStyle}>
-                <h1 style={{fontSize:'1.8em'}}>24k</h1>
-                <h4 style={{fontSize:'0.8em'}}>FOLLOWERS</h4>
+            <div className='col-md-6 col-xs-6' style={followStyle}>
+                <p style={{fontSize:'1.5em'}}>24k</p>
+                <p style={{fontSize:'0.8em'}}>FOLLOWERS</p>
             </div>
         </div>
     )

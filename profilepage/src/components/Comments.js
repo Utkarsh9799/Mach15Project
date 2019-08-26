@@ -3,7 +3,6 @@ import React from 'react';
 const commentStyle = {
     float: 'left',
     borderRight: '1px solid #eee',
-    borderBottom: '1px solid #eee',
     textAlign: 'center',
     padding: '2%'
 }
