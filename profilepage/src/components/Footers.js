@@ -29,7 +29,7 @@ const headStyle = {
 
 function Footers(){
     return(
-            <footer className="footer">
+            <footer className="footer" style={{float:'left',width:'100%'}}>
                 <div className="container" style={{paddingTop:"55px"}}>
                     <div className="row" style={divStyle}>
                         <div className="col-md-3 col-xs-12">

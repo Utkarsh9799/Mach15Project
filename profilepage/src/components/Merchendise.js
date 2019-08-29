@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const merchandiseStyle = {
-    borderTop: '1px solid #eee'
+    borderTop: '1px solid #eee',
+    float:'left'
 }
 const bttnstyle = {
     backgroundColor:'white',
@@ -132,9 +133,6 @@ export default function Merchendise() {
                     style={{height: '10px', width: '10px',margin:'0.4em'}}/>
                 </div>
                 </div>
-
-
-                <div className="row" style={{fontSize:'12px',marginLeft:'1%'}}>
                 <div className='col-md-3' style={{backgroundColor:'#f5f5f5',margin:'2%',padding:'2%'}}>
                 <img src={require('../assets/icons/cap.jpg')} alt="Chainsmoker Cap"
                 style={{height: '150px', width: '150px',margin:'0.4em'}}/>
@@ -233,7 +231,6 @@ export default function Merchendise() {
                 </div>
                 </div>
                 </div>
-            </div>  
-        </div>
+            </div>
     )
 }
