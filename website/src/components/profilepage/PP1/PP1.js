@@ -21,26 +21,26 @@ const borderStyle = {
     border: '1px solid #eee'
 }
 
-function Main(){
+function PP1(){
     return(
-        <div className="FilterPage">
+      <div className="ProfilePage1">
         <Navigationbar />
-      <Info />
-      <div className="border" style={borderStyle}>
-        <About />
-        <Band />
-        <Available />
-        <Connect />
-        <Videos />
-        <FamousBands />
-        <Gigs />
-        <Comments />
-        <Collections />
-        <Merchendise />
-        <Footer />
-      </div>
+        <Info />
+        <div className="border" style={borderStyle}>
+          <About />
+          <Band />
+          <Available />
+          <Connect />
+          <Videos />
+          <FamousBands />
+          <Gigs />
+          <Comments />
+          <Collections />
+          <Merchendise />
+          <Footer />
+        </div>
       </div>
     );
 }
 
-export default Main;
+export default PP1;

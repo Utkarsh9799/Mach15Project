@@ -12,7 +12,7 @@ function Collections() {
                 <h1 style={{fontSize: '22px'}}><b>Suggested Collections</b></h1>   
                 <div className="row" style={{marginTop: '15%'}}>
                     <div className="col-md-3">
-                        <img src={require('../../assets/c2.jpeg')} alt="" 
+                        <img src={require('../../../assets/c2.jpeg')} alt="" 
                         style={{height: '60px',width: '60px',borderRadius: '50%'}} />
                     </div>
                     <div className="col-md-9">
@@ -22,7 +22,7 @@ function Collections() {
                 </div>
                 <div className="row" style={{marginTop: '15%'}}>
                     <div className="col-md-3">
-                        <img src={require('../../assets/c1.jpg')} alt="" 
+                        <img src={require('../../../assets/c1.jpg')} alt="" 
                         style={{height: '60px',width: '60px',borderRadius: '50%'}} />
                     </div>
                     <div className="col-md-9">

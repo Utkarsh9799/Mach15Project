@@ -1,14 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
-import Main from './components/profilepage/Main';
-
+import PP1 from './components/profilepage/PP1/PP1';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Main />
+        <PP1 />
       </Router>
     </div>
   );

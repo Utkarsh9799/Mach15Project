@@ -58,7 +58,7 @@ function Gigs() {
                         <i className="fa fa-ellipsis-v" style={{fontSize: '30px', color: '#363433'}}></i>
                     </div>
                 </div> 
-                <h4><b>All Upcoming Shows      </b><img src={require('../../assets/more.png')} alt=""
+                <h4><b>All Upcoming Shows      </b><img src={require('../../../assets/more.png')} alt=""
                 style={{height: '22px', width: '22px'}} /> </h4> 
             </div>
         </div>
