@@ -14,7 +14,7 @@ function Comments() {
                 <h4><b>Comments</b></h4>
                 <div className="row" style={{marginTop: '10%'}}>
                     <div className="col-md-3">
-                        <img src={require('../assets/pp1.jpg')} alt="" 
+                        <img src={require('../../assets/pp1.jpg')} alt="" 
                         style={{height: '60px',width: '60px',borderRadius: '50px'}} />
                     </div>
                     <div className="col-md-9">
@@ -22,12 +22,12 @@ function Comments() {
                         <span style={{color: 'gray', float: 'right', fontSize: '16px', padding: '2%'}}>   
                         1h ago</span></h1>
                         <p style={{textAlign: 'justify', fontSize: '13px'}}>Lorem ipsum 
-                        dolor sit amet, consectetur adipiscing elit, sed...</p>
+                        dolor sit amet, consectetur adipiscing elit, sed../...</p>
                     </div>
                 </div>
                 <div className="row" style={{marginTop: '5%'}}>
                     <div className="col-md-3">
-                        <img src={require('../assets/pp2.jpg')} alt="" 
+                        <img src={require('../../assets/pp2.jpg')} alt="" 
                         style={{height: '60px',width: '60px',borderRadius: '50px'}} />
                     </div>
                     <div className="col-md-9">
@@ -35,12 +35,12 @@ function Comments() {
                         <span style={{color: 'gray', float: 'right', fontSize: '16px', padding: '2%'}}>
                         3d ago</span></h1>
                         <p style={{textAlign: 'justify', fontSize: '13px'}}>Lorem ipsum 
-                        dolor sit amet, consectetur adipiscing elit, sed...</p>
+                        dolor sit amet, consectetur adipiscing elit, sed../...</p>
                     </div>
                 </div> 
                 <div className="row" style={{marginTop: '5%'}}>
                     <div className="col-md-3">
-                        <img src={require('../assets/pp3.jpeg')} alt="" 
+                        <img src={require('../../assets/pp3.jpeg')} alt="" 
                         style={{height: '60px',width: '60px',borderRadius: '50px'}} />
                     </div>
                     <div className="col-md-9">
@@ -48,7 +48,7 @@ function Comments() {
                         <span style={{color: 'gray', float: 'right', fontSize: '16px', padding: '2%'}}>
                         5w ago</span></h1>
                         <p style={{textAlign: 'justify', fontSize: '13px'}}>Lorem ipsum 
-                        dolor sit amet, consectetur adipiscing elit, sed...</p>
+                        dolor sit amet, consectetur adipiscing elit, sed../...</p>
                     </div>
                 </div>
                 <button style={{backgroundColor: 'black',color: 'white',marginTop: '5%',

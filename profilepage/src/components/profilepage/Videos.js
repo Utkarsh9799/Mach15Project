@@ -14,19 +14,19 @@ function Videos() {
                 <h4 style={{fontSize: '26px', marginBottom: '3%'}}><b>VIDEOS</b></h4>
                 <div className="row" style={{marginBottom: '4%',textAlign: 'center'}}>
                     <div className="col-md-3">
-                        <img src={require('../assets/pic1.jpg')} alt=""
+                        <img src={require('../../assets/pic1.jpg')} alt=""
                         style={{height: '125px', width: '190px', borderRadius: '5px'}} />
                     </div>
                     <div className="col-md-3">
-                        <img src={require('../assets/pic2.jpg')} alt=""
+                        <img src={require('../../assets/pic2.jpg')} alt=""
                         style={{height: '125px', width: '190px', borderRadius: '5px'}} />
                     </div>
                     <div className="col-md-3">
-                        <img src={require('../assets/pic3.jpg')} alt=""
+                        <img src={require('../../assets/pic3.jpg')} alt=""
                         style={{height: '125px', width: '190px', borderRadius: '5px'}} />
                     </div>
                     <div className="col-md-3">
-                        <img src={require('../assets/pic4.jpg')} alt=""
+                        <img src={require('../../assets/pic4.jpg')} alt=""
                         style={{height: '125px', width: '190px', borderRadius: '5px'}} />
                     </div>
                 </div>

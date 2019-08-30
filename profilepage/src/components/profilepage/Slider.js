@@ -15,20 +15,20 @@ function Slider() {
   <div class="carousel-inner" role="listbox" style={{height:'300px'}}>
     {/*First slide*/}
     <div class="carousel-item active">
-      <img class="d-block w-100 thumbnail" src={require("../assets/icons/s2.jpg")
+      <img class="d-block w-100 thumbnail" src={require("../../assets/icons/s2.jpg")
       }
         alt="First slide" />
     </div>
     {/*/First slide*/}
     {/*Second slide*/}
     <div class="carousel-item">
-      <img class="d-block w-100" src={require("../assets/icons/ss1.jpg")}
+      <img class="d-block w-100" src={require("../../assets/icons/ss1.jpg")}
         alt="Second slide" style={{width:'100%',height:'100%'}} />
     </div>
     {/*/Second slide*/}
     {/*Third slide*/}
     <div class="carousel-item">
-      <img class="d-block w-100" src={require("../assets/icons/s3.jpg")}
+      <img class="d-block w-100" src={require("../../assets/icons/s3.jpg")}
         alt="Third slide" style={{width:'100%',height:'100%'}} />
     </div>
     {/*/Third slide*/}

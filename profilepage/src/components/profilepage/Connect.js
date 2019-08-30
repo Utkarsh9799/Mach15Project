@@ -16,9 +16,9 @@ function Connect() {
                 <p style={{fontSize: '15px', textAlign: 'left'}}>Enquiries: Mr. Himanshu Sharma</p>
                 <p style={{fontSize: '15px', textAlign: 'left'}}>Bookings: BandBazar@gmail.com</p>
                 <p style={{fontSize: '15px', textAlign: 'left'}}>Manager: Mr. Ajay Singhania</p>
-                <img src={require('../assets/share.png')} alt="" 
+                <img src={require('../../assets/share.png')} alt="" 
                 style={{height: '40px',width: '40px'}} /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={require('../assets/down.png')} alt="" 
+                <img src={require('../../assets/down.png')} alt="" 
                 style={{height: '40px',width: '40px'}} />
             </div>
         </div>

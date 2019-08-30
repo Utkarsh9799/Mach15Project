@@ -14,7 +14,7 @@ function FamousBands() {
                 <h4><b>Famous Bands</b></h4>
                 <div className="row" style={{marginTop: '15%'}}>
                     <div className="col-md-3">
-                        <img src={require('../assets/Coldplay.jpeg')} alt="" 
+                        <img src={require('../../assets/Coldplay.jpeg')} alt="" 
                         style={{height: '70px',width: '70px',borderRadius: '50%'}} />
                     </div>
                     <div className="col-md-9">
@@ -24,7 +24,7 @@ function FamousBands() {
                 </div>
                 <div className="row" style={{marginTop: '10%'}}>
                     <div className="col-md-3">
-                        <img src={require('../assets/Maroon5.jpg')} alt="" 
+                        <img src={require('../../assets/Maroon5.jpg')} alt="" 
                         style={{height: '70px',width: '70px',borderRadius: '50%'}} />
                     </div>
                     <div className="col-md-9">

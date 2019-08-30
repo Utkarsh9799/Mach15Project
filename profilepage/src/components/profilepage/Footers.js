@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
-import style from "../components/footer.css";
+import style from "./footer.css";
 
 const HoverText = styled.a`
 	color: #808080;

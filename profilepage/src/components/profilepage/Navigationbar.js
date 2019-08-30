@@ -23,7 +23,7 @@ function Navigationbar() {
         <div className="Navbar row">
 
             <div className="imgb col-md-3 col-xs-12">
-            <img src={require('../assets/icons/png.png')} alt="logo"
+            <img src={require('../../assets/icons/png.png')} alt="logo"
             style={{height: '70px', width: '70px'}} />
             </div>
             <Styles className="col-md-3 col-xs-12">
@@ -70,7 +70,7 @@ function Navigationbar() {
                     <h3 style={{fontSize:"20px",fontWeight:"bold"}}>Hello Band</h3>
                 </div>
                 <div className="imgg">
-                <img src={require('../assets/icons/local train.jpeg')} alt="logo"
+                <img src={require('../../assets/icons/local train.jpeg')} alt="logo"
                 style={{height: '50px', width: '50px',borderRadius:"50%"}} />              
                 </div>
                 <div className="clearfix"></div>
