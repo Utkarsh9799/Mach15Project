@@ -9,14 +9,22 @@ const filterStyle = {
     backgroundColor: '#fafafa'
 }
 
+const searchStyle = {
+    float: 'right',
+    margin: '0',
+    padding: '2%'
+}
+
 function FP1() {
     return(
         <div className="FilterPage1">
+            <div className="row" style={{margin: '0',padding: '0'}}>
             <div className="col-md-3" style={filterStyle}>
                 <Filter />
             </div>
-            <div className="col-md-9" style={{float: 'right'}}>
+            <div className="col-md-9" style={searchStyle}>
                 <Card />
+            </div>
             </div>
         </div>
     );
