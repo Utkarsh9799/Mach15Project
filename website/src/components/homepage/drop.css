@@ -1,0 +1,20 @@
+#dropdown-basic-button{
+    margin-top: 40%;
+    border-radius: 0%;
+    border: none;
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 1%;
+}
+.btn-primary.dropdown-toggle{
+    background-color: white!important;
+}
+.Navbar{
+    text-align: left;
+}
+.nav-item{
+    padding: 1.5%;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
-
+import NavHome from './NavHome';
 function Home() {
     return(
         <div className="Home">
-            <h1>Home</h1>
+            <NavHome />
         </div>
     );
 }
