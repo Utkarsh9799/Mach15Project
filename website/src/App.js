@@ -6,6 +6,9 @@ import PP1 from './components/profilepage/PP1/PP1';
 import FP1 from './components/filterpage/FP1/FP1';
 
 class App extends Component {
+  componentDidMount() {
+    // Jquery here $(...)...
+  }
   render() {
     return (
       <Router>
