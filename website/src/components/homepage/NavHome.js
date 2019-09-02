@@ -12,7 +12,6 @@ const Styles = styled.div`
     color: #000;
     font-weight:600;
     font-size:14px;
-    margin-top:18px;
     &:hover {
         text-decoration:none;  
       color: #696969;
@@ -24,11 +23,11 @@ export default function NavHome() {
     return (
             <div className="Navbar row">
 
-            <div className="imgb col-md-4 col-xs-12">
+            <div className="imgb col-md-2 col-xs-12">
             <img src={require('../../assets/icons/png.png')} alt="logo"
-            style={{height: '70px', width: '70px'}} />
+            style={{height: '60px', width: '60px'}} />
             </div>
-            <Styles className="col-md-8 col-xs-12">
+            <Styles className="col-md-10 col-xs-12">
             <Navbar>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -48,7 +47,7 @@ export default function NavHome() {
                 </Nav.Item>
 
                 <Nav.Item>
-                <DropdownButton id="dropdown-basic-button" title="Bands">
+                <DropdownButton id="dropdown-basic-button" title="Artists">
                 <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
                 <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
                 <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
@@ -63,19 +62,19 @@ export default function NavHome() {
                 </Nav.Item>
 
                 <Nav.Item>
-                <DropdownButton id="dropdown-basic-button" title="Bands">
+                <DropdownButton id="dropdown-basic-button" title="Studio">
                 <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
                 <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
                 <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
                 </DropdownButton>
                 </Nav.Item>
                 <Nav.Item>
-                <DropdownButton id="dropdown-basic-button" title="Bands">
+                <DropdownButton id="dropdown-basic-button" title="Shop">
                 <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
                 <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
                 <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
                 </DropdownButton>
-                
+                 
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
@@ -84,13 +83,19 @@ export default function NavHome() {
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                    <Link to="/shop">Login/Signp</Link>
+                    <Link to="/shop">Login/Signup</Link>
                     </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                <div className="search">
+                   <p><i className="fas fa-search" aria-hidden="true"></i> </p>
+                </div>
                 </Nav.Item>
             </Nav>
             </Navbar.Collapse>
             </Navbar>
         </Styles>
+        
                 </div>
     )
 }
