@@ -111,8 +111,8 @@ function Filter() {
                 <label style={{display: 'block',paddingLeft: '15px',textIndent: '-15px',
                 fontSize: '13px'}}><input type="checkbox" style={inputStyle}/>  1 &nbsp;&nbsp;&nbsp;<i className="fa fa-star"></i> & above</label>
                 <label style={{display: 'block',paddingLeft: '15px',textIndent: '-15px',
-                fontSize: '13px'}}><input type="checkbox" style={inputStyle}/>  <img src={require('../../../assets/icons/png.png')} alt="" 
-                style={{height: '30px',width: '35px', marginTop: '2%'}} /> </label>
+                fontSize: '13px'}}><input type="checkbox" style={inputStyle}/>  <img src={require('../../../assets/icons/assured.png')} alt="" 
+                style={{height: '35px',width: '85px', marginTop: '2%'}} /> </label>
                 <h5 style={{fontSize: '18px',marginBottom: '5%',marginTop: '8%'}}>Availability</h5>
                 <label style={{display: 'block',paddingLeft: '15px',textIndent: '-15px',fontSize: '14px'}}><input type="checkbox" style={inputStyle}/>&nbsp;Remotely Available</label>
                 <label style={{display: 'block',paddingLeft: '15px',textIndent: '-15px',fontSize: '14px'}}><input type="checkbox" style={inputStyle}/>&nbsp;Internationally Available</label>
