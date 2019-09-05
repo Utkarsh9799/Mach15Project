@@ -13,7 +13,8 @@ $(function() {
       moveatleast: 2,
       neutral: 150,
       persist: true,
-      savedirection: true
+      savedirection: true,
+      random: true
     });
   });
   
@@ -79,6 +80,24 @@ $(function() {
       neutral: 150,
       persist: true,
       savedirection: true
+    });
+  });
+
+  $(function() {
+
+    marqueeInit({
+      uniqueid: 'mycrawlertext',
+      style: {
+        height: '80px', 
+        
+      },
+      inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+      mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+      moveatleast: 2,
+      neutral: 150,
+      persist: true,
+      savedirection: true,
+      stopMarquee: true
     });
   });
   //////////////// CRAWLER.JS FOLLOWS ///////////
