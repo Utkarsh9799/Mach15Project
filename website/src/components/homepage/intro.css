@@ -5,15 +5,26 @@
   }
   
   /* Create four equal columns that sits next to each other */
-  .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0;
-  }
   
+  .column1 {
+    flex: 25%;
+    max-width: 25%; 
+  }
+  .column2 {
+    flex: 20%;
+    max-width: 25%;
+  }
+  .column3 {
+    flex: 25%;
+    max-width: 25%; 
+  }
+  .column4 {
+    flex: 35%;
+    max-width: 25%;  
+  }
   .column img {
-    margin-top: 0px;
-    vertical-align: middle;
+    margin-top: 3%;
+    vertical-align: middle; 
     width: 100%;
   }
   
