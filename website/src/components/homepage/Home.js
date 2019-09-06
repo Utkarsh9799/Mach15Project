@@ -3,6 +3,7 @@ import NavHome from './NavHome';
 import Intro from './Intro';
 import Marquee from './Marquee';
 import Upcoming from './Upcoming';
+import Crew from './Crew';
 
 function Home() {
     return(
@@ -13,7 +14,7 @@ function Home() {
             <Marquee /> 
             <hr />
             <Upcoming />
-        
+            <Crew />
         </div>
     );
 }
