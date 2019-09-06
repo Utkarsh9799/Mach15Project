@@ -30,7 +30,7 @@ const marquee3 = {
 
 function Marquee() {
     return(
-        <div className="Marquee">
+        <div className="Marquee" style={{width: '100%'}}>
             <div className="marquee" id="mycrawler" style={marquee1}>
                 Boulevard Of Broken Dreams &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;Closer
@@ -43,7 +43,7 @@ function Marquee() {
             </div>
             
             <div className="marquee" id="mycrawlertext" style={marqueetext}>
-                We Connect Pasion to Career
+                We Connect Passion to Career
             </div>
             <div className="marquee" id="mycrawler4" style={marquee2}>
                 Ariana Grande &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

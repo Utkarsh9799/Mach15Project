@@ -13,6 +13,7 @@ function Home() {
             <Marquee /> 
             <hr />
             <Upcoming />
+        
         </div>
     );
 }
