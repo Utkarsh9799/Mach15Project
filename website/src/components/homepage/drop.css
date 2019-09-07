@@ -38,3 +38,14 @@
 .fa .fas{
     font-weight: 400;
 }
+.banner-fluid{
+    position: relative;
+}
+
+.controls {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+}
