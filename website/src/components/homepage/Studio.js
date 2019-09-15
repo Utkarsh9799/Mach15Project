@@ -1,15 +1,15 @@
 import React from 'react';
 
-function Crew() {
+function Studio() {
     return(
-        <div className="Crew">
-        <div style={{paddingLeft:'5%'}}>
-        <h1 style={{textAlign:"center",letterSpacing:'4px',fontSize:'60px'}}>Crew Members</h1>
-        <h3 style={{textAlign:"center"}}>"Practice your talent and present it to the World".</h3>
-        <p style={{float:'right',fontSize:'22px',paddingTop:'2%',color:'#00edf0',fontWeight:'bolder'}}><b>Show All  </b><img src={require('../../assets/more.png')} alt="share icon" 
+        <div className="Studio">
+        <div style={{paddingLeft:'25%'}}>
+        <h1 style={{textAlign:"center",letterSpacing:'4px',fontSize:'60px',fontWeight:'bolder'}}>Studio Facility</h1>
+        <h3 style={{textAlign:"center"}}>"Practice your Talent hidden from the World and present it to the World".</h3>
+        <p style={{float:'right',fontSize:'22px',color:'#00edf0',fontWeight:'bolder',paddingRight:'5%'}}><b>Show All  </b><img src={require('../../assets/more.png')} alt="share icon" 
                           style={{width: '20px',height: '18px'}}/></p>
         </div>
-        <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'1%'}}>
+        <div style={{marginLeft:'5%',marginRight:'5%'}}>
             {/*Carousel Wrapper*/}
             <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
               {/*Controls*/}
@@ -28,12 +28,17 @@ function Crew() {
                   <div className="row">
                     <div className="col-md-3">
                       <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
                         alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
                         <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
                           <div style={{fontSize:'15px',letterSpacing:'5px'}}>
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star"></span>
@@ -41,7 +46,7 @@ function Crew() {
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star checked"></span>
                           </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
+                          </p>
                           <div>
                           <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
                           <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
@@ -53,13 +58,18 @@ function Crew() {
                       </div>
                     </div>
                     <div className="col-md-3 clearfix d-none d-md-block">
-                    <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
+                      <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
                         alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
                         <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
                           <div style={{fontSize:'15px',letterSpacing:'5px'}}>
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star"></span>
@@ -67,7 +77,7 @@ function Crew() {
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star checked"></span>
                           </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
+                          </p>
                           <div>
                           <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
                           <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
@@ -80,12 +90,17 @@ function Crew() {
                     </div>
                     <div className="col-md-3">
                       <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
                         alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
                         <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
                           <div style={{fontSize:'15px',letterSpacing:'5px'}}>
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star"></span>
@@ -93,7 +108,7 @@ function Crew() {
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star checked"></span>
                           </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
+                          </p>
                           <div>
                           <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
                           <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
@@ -106,12 +121,17 @@ function Crew() {
                     </div>
                     <div className="col-md-3 clearfix d-none d-md-block">
                     <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
                         alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
                         <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
                           <div style={{fontSize:'15px',letterSpacing:'5px'}}>
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star"></span>
@@ -119,7 +139,7 @@ function Crew() {
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star checked"></span>
                           </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
+                          </p>
                           <div>
                           <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
                           <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
@@ -137,13 +157,18 @@ function Crew() {
                 <div className="carousel-item">
                   <div className="row">
                     <div className="col-md-3">
-                    <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
+                      <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
                         alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
                         <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
                           <div style={{fontSize:'15px',letterSpacing:'5px'}}>
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star"></span>
@@ -151,7 +176,38 @@ function Crew() {
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star checked"></span>
                           </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
+                          </p>
+                          <div>
+                          <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
+                          <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
+                          <p style={{float:'right'}}><img src={require('../../assets/icons/assured.png')} alt="share icon" 
+                          style={{width: '6rem',height: '35px'}}/></p>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-3 clearfix d-none d-md-block">
+                      <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
+                        alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
+                        <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
+                          <div style={{fontSize:'15px',letterSpacing:'5px'}}>
+                          <span className="fa fa-star"></span>
+                          <span className="fa fa-star"></span>
+                          <span className="fa fa-star"></span>
+                          <span className="fa fa-star"></span>
+                          <span className="fa fa-star checked"></span>
+                          </div>
+                          </p>
                           <div>
                           <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
                           <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
@@ -164,12 +220,17 @@ function Crew() {
                     </div>
                     <div className="col-md-3">
                       <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
                         alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
                         <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
                           <div style={{fontSize:'15px',letterSpacing:'5px'}}>
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star"></span>
@@ -177,7 +238,7 @@ function Crew() {
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star checked"></span>
                           </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
+                          </p>
                           <div>
                           <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
                           <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
@@ -190,12 +251,17 @@ function Crew() {
                     </div>
                     <div className="col-md-3 clearfix d-none d-md-block">
                     <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
                         alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
                         <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
                           <div style={{fontSize:'15px',letterSpacing:'5px'}}>
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star"></span>
@@ -203,33 +269,7 @@ function Crew() {
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star checked"></span>
                           </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
-                          <div>
-                          <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
-                          <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
-                          <p style={{float:'right'}}><img src={require('../../assets/icons/assured.png')} alt="share icon" 
-                          style={{width: '6rem',height: '35px'}}/></p>
-                          </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-3 clearfix d-none d-md-block">
-                    <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
-                        alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
-                        <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
-                          <div style={{fontSize:'15px',letterSpacing:'5px'}}>
-                          <span className="fa fa-star"></span>
-                          <span className="fa fa-star"></span>
-                          <span className="fa fa-star"></span>
-                          <span className="fa fa-star"></span>
-                          <span className="fa fa-star checked"></span>
-                          </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
+                          </p>
                           <div>
                           <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
                           <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
@@ -247,13 +287,18 @@ function Crew() {
                 <div className="carousel-item">
                   <div className="row">
                     <div className="col-md-3">
-                    <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
+                      <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
                         alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
                         <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
                           <div style={{fontSize:'15px',letterSpacing:'5px'}}>
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star"></span>
@@ -261,7 +306,38 @@ function Crew() {
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star checked"></span>
                           </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
+                          </p>
+                          <div>
+                          <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
+                          <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
+                          <p style={{float:'right'}}><img src={require('../../assets/icons/assured.png')} alt="share icon" 
+                          style={{width: '6rem',height: '35px'}}/></p>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-3 clearfix d-none d-md-block">
+                      <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
+                        alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
+                        <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
+                          <div style={{fontSize:'15px',letterSpacing:'5px'}}>
+                          <span className="fa fa-star"></span>
+                          <span className="fa fa-star"></span>
+                          <span className="fa fa-star"></span>
+                          <span className="fa fa-star"></span>
+                          <span className="fa fa-star checked"></span>
+                          </div>
+                          </p>
                           <div>
                           <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
                           <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
@@ -274,12 +350,17 @@ function Crew() {
                     </div>
                     <div className="col-md-3">
                       <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
                         alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
                         <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
                           <div style={{fontSize:'15px',letterSpacing:'5px'}}>
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star"></span>
@@ -287,7 +368,7 @@ function Crew() {
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star checked"></span>
                           </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
+                          </p>
                           <div>
                           <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
                           <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
@@ -300,12 +381,17 @@ function Crew() {
                     </div>
                     <div className="col-md-3 clearfix d-none d-md-block">
                     <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
+                        <img className="card-img-top" src={require('../../assets/homepage/Advent Studios-Recording Studio-Delhi 5.jpg')} 
                         alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
                         <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
+                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'18px',fontWeight:'bold'}}>RecordMe Studio</h4>
+                          <div className="card-text" style={{fontSize:'11px'}}>
+                            <div>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'left',padding:'2%',boxShadow:'none'}}>Jam Pad</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',float:'center',padding:'2%',boxShadow:'none'}}>Vocal Recording</button>
+                            <button type='button' style={{backgroundColor:'#A9A9A9',padding:'2%',boxShadow:'none'}}>Audio/Video Production</button>
+                            </div>
+                          <p style={{color:'black',fontWeight:'bolder',marginBottom:'1%',fontSize:'13px'}}>New Delhi,IN<br/>
                           <div style={{fontSize:'15px',letterSpacing:'5px'}}>
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star"></span>
@@ -313,33 +399,7 @@ function Crew() {
                           <span className="fa fa-star"></span>
                           <span className="fa fa-star checked"></span>
                           </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
-                          <div>
-                          <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
-                          <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
-                          <p style={{float:'right'}}><img src={require('../../assets/icons/assured.png')} alt="share icon" 
-                          style={{width: '6rem',height: '35px'}}/></p>
-                          </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-3 clearfix d-none d-md-block">
-                    <div className="card mb-2" style={{backgroundColor:'#F0F0F0',borderRadius:'2%',boxShadow:'none',marginRight:'10%'}}>
-                        <img className="card-img-top" src={require('../../assets/homepage/Pro-Photographer-Gear-Patrol-Lead-Full.png')} 
-                        alt="Card image cap" style={{width: '100%',height: '17rem',borderRadius:'5%'}} />
-                        <div className="card-body" style={{paddingTop:'1%',paddingLeft:'5%',paddingRight:'5%',paddingBottom:'1%'}}>
-                          <h4 className="card-title" style={{marginBottom:'0px',fontSize:'20px',fontWeight:'bold'}}>Art of creative Web</h4>
-                          <div className="card-text" style={{fontSize:'11px'}}>Event Photograper
-                          <p style={{color:'black',fontWeight:'bolder'}}>New Delhi,IN<br/>
-                          <div style={{fontSize:'15px',letterSpacing:'5px'}}>
-                          <span className="fa fa-star"></span>
-                          <span className="fa fa-star"></span>
-                          <span className="fa fa-star"></span>
-                          <span className="fa fa-star"></span>
-                          <span className="fa fa-star checked"></span>
-                          </div>
-                          <p> Contact us:- +91 987 654 321</p></p>
+                          </p>
                           <div>
                           <p style={{fontSize:'21px',fontWeight:'bolder',float:'left',color:'black'}}>&hearts; 609&nbsp;&nbsp;
                           <img src={require('../../assets/share.png')} alt="share icon" style={{width: '20px',height: '20px'}}/></p>
@@ -367,4 +427,4 @@ function Crew() {
     );
 }
 
-export default Crew;
+export default Studio;
