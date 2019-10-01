@@ -8,6 +8,7 @@ import Trst from './Trst';
 import Artist from './Artist';
 import Cart from './Cart';
 import Studio from './Studio';
+
 function Home() {
     return(
         <div className="Home">

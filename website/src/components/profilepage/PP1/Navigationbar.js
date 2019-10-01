@@ -58,7 +58,7 @@ function Navigationbar() {
                 </Navbar.Collapse>
                 </Navbar>
             </Styles>
-            <div className="col-md-3 col-xs-6" style={{marginTop:'1.5%'}}>
+            <div className="formm col-md-3 col-xs-12" style={{marginTop:'1.5%'}}>
             <form className="form-inline md-form form-sm mt-0">
                 <i className="fas fa-search" aria-hidden="true"></i>
                 <input className="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"

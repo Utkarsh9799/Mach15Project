@@ -19,23 +19,23 @@ const Styles = styled.div`
     }
   }
 `
-
+ 
 export default function NavHome() {
     return (
         <div className="Navbar row">
 
-            <div className="imgb col-md-2 col-xs-12">
+            <div className="imgb col-md-1 col-xs-12">
                 <img src={require('../../assets/icons/png.png')} alt="logo"
                 style={{height: '60px', width: '60px'}} />
             </div>
-            <Styles className="col-md-10 col-xs-12">
+            <Styles className="col-md-11 col-xs-12">
                 <Navbar>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Item>
                             <Nav.Link>
-                                <Link to="/">Home</Link>
+                                <Link to="/"><b>Home</b></Link>
                             </Nav.Link>
                         </Nav.Item>
 
@@ -58,7 +58,7 @@ export default function NavHome() {
 
                         <Nav.Item>
                             <Nav.Link>
-                                <Link to="/">Gigs</Link>
+                            <Link to="/Gigs"><b>Gigs</b></Link>
                             </Nav.Link>
                         </Nav.Item>
 
@@ -79,12 +79,12 @@ export default function NavHome() {
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                    <Link to="/shop">Post Event</Link>
+                    <Link to="/Event"><b>Post Event</b></Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                    <Link to="/shop">Login/Signup</Link>
+                    <Link to="/login"><b>Login/Signp</b></Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>

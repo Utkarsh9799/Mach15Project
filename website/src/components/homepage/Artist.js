@@ -3,7 +3,7 @@ import React from 'react';
 function Artist() {
     return(
         <div className="Artist">
-        <h1 style={{textAlign:"center",letterSpacing:'4px',fontSize:'60px',fontWeight:'bolder'}}>Artists Home</h1>
+        <h1 style={{textAlign:"center",letterSpacing:'4px',fontSize:'50px',fontWeight:'bolder'}}>Artists Home</h1>
         <h3 style={{textAlign:"center"}}>"We launch the Best Talent hidden from the World for so long".</h3>
         <p style={{float:'right',fontSize:'22px',color:'#00edf0',fontWeight:'bolder',paddingRight:'5%'}}><b>Show All  </b><img src={require('../../assets/more.png')} alt="share icon" 
                           style={{width: '20px',height: '18px'}}/></p>

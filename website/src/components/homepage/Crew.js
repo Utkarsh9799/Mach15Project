@@ -4,7 +4,7 @@ function Crew() {
     return(
         <div className="Crew">
         <div style={{paddingLeft:'5%'}}>
-        <h1 style={{textAlign:"center",letterSpacing:'4px',fontSize:'60px'}}>Crew Members</h1>
+        <h1 style={{textAlign:"center",letterSpacing:'4px',fontSize:'40px'}}>Crew Members</h1>
         <h3 style={{textAlign:"center"}}>"Practice your talent and present it to the World".</h3>
         <p style={{float:'right',fontSize:'22px',paddingTop:'2%',color:'#00edf0',fontWeight:'bolder'}}><b>Show All  </b><img src={require('../../assets/more.png')} alt="share icon" 
                           style={{width: '20px',height: '18px'}}/></p>

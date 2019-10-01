@@ -40,4 +40,6 @@
 
 .navbar {
     box-shadow: none;
+    margin-top: -5%;
+    font-weight: bold;
 }

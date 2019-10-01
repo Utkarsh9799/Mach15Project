@@ -3,7 +3,7 @@ import React from 'react';
 function Trst() {
     return(
         <div className="Trst">
-        <h1 style={{textAlign:"center",letterSpacing:'4px',fontSize:'60px',fontWeight:'bolder'}}>Bands Trust Us</h1>
+        <h1 style={{textAlign:"center",letterSpacing:'4px',fontSize:'50px',fontWeight:'bolder'}}>Bands Trust Us</h1>
         <h3 style={{textAlign:"center"}}>"They say, The More The Merrier and I think they were right".</h3>
         <p style={{float:'right',fontSize:'22px',color:'#00edf0',fontWeight:'bolder',paddingRight:'5%'}}><b>Show All  </b><img src={require('../../assets/more.png')} alt="share icon" 
                           style={{width: '20px',height: '18px'}}/></p>
